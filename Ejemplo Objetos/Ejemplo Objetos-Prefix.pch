@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Ejemplo Objetos' target in the 'Ejemplo Objetos' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
