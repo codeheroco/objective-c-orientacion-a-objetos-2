@@ -10,6 +10,8 @@
 		552038AB17810EC500D23CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552038AA17810EC500D23CD6 /* Foundation.framework */; };
 		552038AE17810EC500D23CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 552038AD17810EC500D23CD6 /* main.m */; };
 		552038B217810EC500D23CD6 /* Ejemplo_Objetos.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 552038B117810EC500D23CD6 /* Ejemplo_Objetos.1 */; };
+		552038BA1781101200D23CD6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 552038B91781101200D23CD6 /* Person.m */; };
+		55725FF91793817B00621F4A /* Person+Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 55725FF81793817B00621F4A /* Person+Runner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,11 @@
 		552038AD17810EC500D23CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		552038B017810EC500D23CD6 /* Ejemplo Objetos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ejemplo Objetos-Prefix.pch"; sourceTree = "<group>"; };
 		552038B117810EC500D23CD6 /* Ejemplo_Objetos.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ejemplo_Objetos.1; sourceTree = "<group>"; };
+		552038B81781101200D23CD6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		552038B91781101200D23CD6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		55725FF71793817B00621F4A /* Person+Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Runner.h"; sourceTree = "<group>"; };
+		55725FF81793817B00621F4A /* Person+Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Runner.m"; sourceTree = "<group>"; };
+		55725FFA1793835300621F4A /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				552038AD17810EC500D23CD6 /* main.m */,
+				552038B81781101200D23CD6 /* Person.h */,
+				552038B91781101200D23CD6 /* Person.m */,
 				552038B117810EC500D23CD6 /* Ejemplo_Objetos.1 */,
+				55725FF71793817B00621F4A /* Person+Runner.h */,
+				55725FF81793817B00621F4A /* Person+Runner.m */,
+				55725FFA1793835300621F4A /* Entity.h */,
 				552038AF17810EC500D23CD6 /* Supporting Files */,
 			);
 			path = "Ejemplo Objetos";
@@ -140,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				552038AE17810EC500D23CD6 /* main.m in Sources */,
+				552038BA1781101200D23CD6 /* Person.m in Sources */,
+				55725FF91793817B00621F4A /* Person+Runner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +256,7 @@
 				552038B717810EC500D23CD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
